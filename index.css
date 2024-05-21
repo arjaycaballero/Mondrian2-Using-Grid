@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.white1 {
+    background-color: whitesmoke;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.red {
+    background-color: red;
+    grid-column: span 7;
+    grid-row: span 2;
+}
+
+.blue {
+    background-color: blue;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.white2 {
+    background-color: whitesmoke;
+    grid-column: span 6;
+    grid-row: span 2;
+}
+
+.white3 {
+    background-color: whitesmoke;
+}
+
+.yellow {
+    background-color: yellow
+}
+
+.container {
+    height: 345px;
+    width: 640px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 25px;
+}
